@@ -13,7 +13,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
   // Verificar credenciales
   if (username === validUsername && password === validPassword) {
     errorMessage.textContent = '';  // Borra el mensaje de error si las credenciales son correctas
-    alert('¡Inicio de sesión exitoso!');
+    alert('¡Inicio de sesión correcto!');
     
     // Redirige a otra página o cambia el estado de la interfaz
     window.location.href = 'home.html'; // Suponiendo que haya una página de inicio
