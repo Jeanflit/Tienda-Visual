@@ -16,7 +16,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     alert('¡Inicio de sesión correcto!');
     
     // Redirige a otra página o cambia el estado de la interfaz
-    window.location.href = 'home.html'; // Suponiendo que haya una página de inicio
+    window.location.href = 'Tienda visual .html'; // Suponiendo que haya una página de inicio
   } else {
     errorMessage.textContent = 'Usuario o contraseña incorrectos.';
   }
